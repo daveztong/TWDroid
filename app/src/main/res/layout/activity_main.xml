@@ -1,11 +1,20 @@
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
-    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
-    android:paddingRight="@dimen/activity_horizontal_margin"
-    android:paddingTop="@dimen/activity_vertical_margin"
-    android:paddingBottom="@dimen/activity_vertical_margin" tools:context=".MainActivity">
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:tw="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
 
-    <TextView android:text="@string/hello_world" android:layout_width="wrap_content"
-        android:layout_height="wrap_content" />
+    <me.twmm.twdroid.views.GestureLockViewGroup
+        android:layout_centerInParent="true"
+        android:id="@+id/id_gestureLockViewGroup"
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        android:background="#F2F2F7"
+        android:gravity="center_vertical"
+        tw:count="3"
+        tw:tryTimes="5" />
+    <!--   zhy:color_no_finger_inner_circle="#ff085D58"
+            zhy:color_no_finger_outer_circle="#ff08F0E0"
+            zhy:color_finger_on="#FF1734BF" -->
 
 </RelativeLayout>
