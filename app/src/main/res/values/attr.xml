@@ -16,4 +16,12 @@
         <attr name="count" />
         <attr name="tryTimes" />
     </declare-styleable>
+
+
+    <declare-styleable name="TWProgressView">
+        <attr name="circleWidth" format="dimension|reference" />
+        <attr name="speed" format="reference|integer" />
+        <attr name="firstColor" format="reference|color" />
+        <attr name="secondColor" format="reference|color" />
+    </declare-styleable>
 </resources>
